@@ -1,0 +1,5 @@
+node_modules/
+happy.db
+happy.db-*
+.env
+public/downloads/
