@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>지금 다들 기분이 어때요</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <h1>지금 다들 기분이 어때요</h1>
+          <p class="subtitle">위젯으로 올린 기분이 실시간으로 여기에 모여요</p>
+        </div>
+        <a id="downloadBtn" class="download-btn" href="/downloads/happy-widget.exe" download>
+          나도 참여하기
+        </a>
+      </header>
+
+      <p id="emptyState" class="empty hidden">아직 아무도 기분을 올리지 않았어요.</p>
+      <ul id="feed"></ul>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
