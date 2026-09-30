@@ -138,7 +138,7 @@ h1 {
   border-radius: 16px;
   padding: 18px;
   box-shadow: var(--card-shadow);
-  border: 2px solid transparent;
+  border: 3px solid transparent;
   background-origin: border-box;
   background-clip: padding-box, border-box;
   color: #eaf6ff;
@@ -187,26 +187,26 @@ h1 {
 }
 
 .mood-great {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
-    linear-gradient(135deg, var(--mood-great-bg), rgba(255, 255, 255, 0.85));
+  background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
+    linear-gradient(135deg, var(--mood-great-bg), #d9ff66);
 }
 
 .mood-good {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
-    linear-gradient(135deg, var(--mood-good-bg), rgba(255, 255, 255, 0.85));
+  background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
+    linear-gradient(135deg, var(--mood-good-bg), var(--mood-great-bg));
 }
 
 .mood-meh {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
-    linear-gradient(135deg, var(--mood-meh-bg), rgba(255, 255, 255, 0.85));
+  background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
+    linear-gradient(135deg, var(--mood-meh-bg), var(--mood-good-bg));
 }
 
 .mood-sad {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
-    linear-gradient(135deg, var(--mood-sad-bg), rgba(255, 255, 255, 0.85));
+  background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
+    linear-gradient(135deg, var(--mood-sad-bg), var(--mood-meh-bg));
 }
 
 .mood-angry {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
-    linear-gradient(135deg, var(--mood-angry-bg), rgba(255, 255, 255, 0.85));
+  background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
+    linear-gradient(135deg, var(--mood-angry-bg), var(--mood-sad-bg));
 }
