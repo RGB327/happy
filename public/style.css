@@ -5,15 +5,15 @@
   --glow-soft: rgba(79, 208, 232, 0.35);
   --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 
-  --mood-great-bg: #ffc93c;
-  --mood-great-fg: #6b4a00;
-  --mood-good-bg: #6fcf5a;
-  --mood-good-fg: #1f4d0f;
-  --mood-meh-bg: #b0afa6;
-  --mood-meh-fg: #ffffff;
-  --mood-sad-bg: #5b8def;
+  --mood-great-bg: #4be07a;
+  --mood-great-fg: #04121c;
+  --mood-good-bg: #3be0a0;
+  --mood-good-fg: #04121c;
+  --mood-meh-bg: #3bd6c6;
+  --mood-meh-fg: #04121c;
+  --mood-sad-bg: #3ba9e0;
   --mood-sad-fg: #ffffff;
-  --mood-angry-bg: #f2545b;
+  --mood-angry-bg: #3b6fe0;
   --mood-angry-fg: #ffffff;
 }
 
@@ -162,29 +162,29 @@ h1 {
 .mood-great {
   background: var(--mood-great-bg);
   color: var(--mood-great-fg);
-  box-shadow: var(--card-shadow), 0 0 20px rgba(255, 201, 60, 0.35);
+  box-shadow: var(--card-shadow), 0 0 20px rgba(75, 224, 122, 0.35);
 }
 
 .mood-good {
   background: var(--mood-good-bg);
   color: var(--mood-good-fg);
-  box-shadow: var(--card-shadow), 0 0 20px rgba(111, 207, 90, 0.35);
+  box-shadow: var(--card-shadow), 0 0 20px rgba(59, 224, 160, 0.35);
 }
 
 .mood-meh {
   background: var(--mood-meh-bg);
   color: var(--mood-meh-fg);
-  box-shadow: var(--card-shadow), 0 0 20px rgba(176, 175, 166, 0.3);
+  box-shadow: var(--card-shadow), 0 0 20px rgba(59, 214, 198, 0.3);
 }
 
 .mood-sad {
   background: var(--mood-sad-bg);
   color: var(--mood-sad-fg);
-  box-shadow: var(--card-shadow), 0 0 20px rgba(91, 141, 239, 0.35);
+  box-shadow: var(--card-shadow), 0 0 20px rgba(59, 169, 224, 0.35);
 }
 
 .mood-angry {
   background: var(--mood-angry-bg);
   color: var(--mood-angry-fg);
-  box-shadow: var(--card-shadow), 0 0 20px rgba(242, 84, 91, 0.35);
+  box-shadow: var(--card-shadow), 0 0 20px rgba(59, 111, 224, 0.35);
 }
