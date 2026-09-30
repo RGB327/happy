@@ -138,7 +138,7 @@ h1 {
   border-radius: 16px;
   padding: 18px;
   box-shadow: var(--card-shadow);
-  border: 1px solid transparent;
+  border: 1.5px solid transparent;
   background-origin: border-box;
   background-clip: padding-box, border-box;
   color: #eaf6ff;
