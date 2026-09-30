@@ -189,29 +189,24 @@ h1 {
 .mood-great {
   background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
     linear-gradient(135deg, var(--mood-great-bg), rgba(255, 255, 255, 0.85));
-  box-shadow: var(--card-shadow), 0 0 20px rgba(75, 224, 122, 0.35);
 }
 
 .mood-good {
   background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
     linear-gradient(135deg, var(--mood-good-bg), rgba(255, 255, 255, 0.85));
-  box-shadow: var(--card-shadow), 0 0 20px rgba(59, 224, 160, 0.35);
 }
 
 .mood-meh {
   background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
     linear-gradient(135deg, var(--mood-meh-bg), rgba(255, 255, 255, 0.85));
-  box-shadow: var(--card-shadow), 0 0 20px rgba(59, 214, 198, 0.3);
 }
 
 .mood-sad {
   background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
     linear-gradient(135deg, var(--mood-sad-bg), rgba(255, 255, 255, 0.85));
-  box-shadow: var(--card-shadow), 0 0 20px rgba(59, 169, 224, 0.35);
 }
 
 .mood-angry {
   background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.06)),
     linear-gradient(135deg, var(--mood-angry-bg), rgba(255, 255, 255, 0.85));
-  box-shadow: var(--card-shadow), 0 0 20px rgba(59, 111, 224, 0.35);
 }
