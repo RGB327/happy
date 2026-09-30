@@ -5,11 +5,11 @@
   --glow-soft: rgba(79, 208, 232, 0.35);
   --card-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
 
-  --mood-great-bg: #4be07a;
-  --mood-good-bg: #3be0a0;
-  --mood-meh-bg: #3bd6c6;
-  --mood-sad-bg: #3ba9e0;
-  --mood-angry-bg: #3b6fe0;
+  --mood-great-bg: #4fbf67;
+  --mood-good-bg: #f0c343;
+  --mood-meh-bg: #9ca3af;
+  --mood-sad-bg: #7ec8e3;
+  --mood-angry-bg: #2f4b99;
 }
 
 * {
@@ -188,30 +188,30 @@ h1 {
 
 .mood-great {
   background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
-    linear-gradient(135deg, rgba(75, 224, 122, 0.55), rgba(217, 255, 102, 0.55));
-  box-shadow: var(--card-shadow), 0 0 32px rgba(75, 224, 122, 0.4);
+    linear-gradient(135deg, rgba(79, 191, 103, 0.55), rgba(180, 230, 190, 0.55));
+  box-shadow: var(--card-shadow), 0 0 32px rgba(79, 191, 103, 0.4);
 }
 
 .mood-good {
   background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
-    linear-gradient(135deg, rgba(59, 224, 160, 0.55), rgba(75, 224, 122, 0.55));
-  box-shadow: var(--card-shadow), 0 0 32px rgba(59, 224, 160, 0.4);
+    linear-gradient(135deg, rgba(240, 195, 67, 0.55), rgba(79, 191, 103, 0.55));
+  box-shadow: var(--card-shadow), 0 0 32px rgba(240, 195, 67, 0.4);
 }
 
 .mood-meh {
   background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
-    linear-gradient(135deg, rgba(59, 214, 198, 0.55), rgba(59, 224, 160, 0.55));
-  box-shadow: var(--card-shadow), 0 0 32px rgba(59, 214, 198, 0.35);
+    linear-gradient(135deg, rgba(156, 163, 175, 0.55), rgba(240, 195, 67, 0.55));
+  box-shadow: var(--card-shadow), 0 0 32px rgba(156, 163, 175, 0.35);
 }
 
 .mood-sad {
   background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
-    linear-gradient(135deg, rgba(59, 169, 224, 0.55), rgba(59, 214, 198, 0.55));
-  box-shadow: var(--card-shadow), 0 0 32px rgba(59, 169, 224, 0.4);
+    linear-gradient(135deg, rgba(126, 200, 227, 0.55), rgba(156, 163, 175, 0.55));
+  box-shadow: var(--card-shadow), 0 0 32px rgba(126, 200, 227, 0.4);
 }
 
 .mood-angry {
   background-image: linear-gradient(var(--bg-tint), var(--bg-tint)),
-    linear-gradient(135deg, rgba(59, 111, 224, 0.55), rgba(59, 169, 224, 0.55));
-  box-shadow: var(--card-shadow), 0 0 32px rgba(59, 111, 224, 0.4);
+    linear-gradient(135deg, rgba(47, 75, 153, 0.55), rgba(126, 200, 227, 0.55));
+  box-shadow: var(--card-shadow), 0 0 32px rgba(47, 75, 153, 0.4);
 }
